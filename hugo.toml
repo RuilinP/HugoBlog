@@ -1,7 +1,7 @@
 baseURL = ''
 languageCode = 'en-us'
 title = 'My New Hugo Site'
-theme = 'hugo-theme-terminal'
+theme = 'terminal'
 
 [params]
 themeColor = "blue"
