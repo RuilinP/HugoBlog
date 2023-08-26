@@ -20,4 +20,13 @@ I am a Statistical Science major and Computer Science minor and Math minor Under
 
 専攻は統計科学、コンピューターサイエンス、統計であります。そして、アークナイツやFGOが大好きて。。。つまりオタクでいるとおもいます。
 
+{{< image src="/img/setup.png" alt="Hello Friend" position="center" style="border-radius: 8px;" >}}
 
+This is the Thinkpad I use the most nowadays and carries around, a t460
+
+{{< image src="/img/setuparm2.png" alt="arm2" position="center" style="border-radius: 8px;" >}}
+
+
+{{< image src="/img/setuparm.png" alt="arm" position="center" style="border-radius: 8px;" >}}
+
+And this is actually the first device I got Arch Linux up and running. Nowadays I use it as a secondary computer.
