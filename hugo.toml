@@ -30,4 +30,4 @@ themeColor = "blue"
       [[languages.en.menu.main]]
         identifier = "about"
         name = "About"
-        url = "posts/about"
+        url = "/about"
