@@ -6,6 +6,8 @@ theme = 'terminal'
 [params]
 themeColor = "blue"
 
+fullWidthTheme = true
+
 [languages]
   [languages.en]
     languageName = "English"
