@@ -8,6 +8,8 @@ themeColor = "blue"
 
 fullWidthTheme = true
 
+centerTheme = true
+
 [languages]
   [languages.en]
     languageName = "English"
