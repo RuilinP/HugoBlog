@@ -12,6 +12,7 @@ readingTime = false
 hideComments = false
 color = "" #color from the theme settings
 +++
+{{< youtube eLvGnjGWbQo >}}
 
 {{< image src="/img/ark2.png" alt="screenshot" position="center" style="border-radius: 8px;" >}}
 
