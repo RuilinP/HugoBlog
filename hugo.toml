@@ -3,6 +3,8 @@ languageCode = 'en-us'
 title = 'My New Hugo Site'
 theme = 'terminal'
 
+disqusShortname = 'ruilinp'
+
 [params]
 themeColor = "blue"
 

@@ -53,5 +53,7 @@
   {{ if not (.Params.hideComments | default false) }}
     {{ partial "comments.html" . }}
   {{ end }}
+  {{ template "_internal/disqus.html" . }}
+
 </article>
 {{ end }}
