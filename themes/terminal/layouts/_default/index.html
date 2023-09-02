@@ -9,14 +9,23 @@
     {{ $contentTypeName := cond $isntDefault (string $.Site.Params.contentTypeName) "posts" }}
     
     
-  
+    {{$start :=  time "2023-08-25"}}
+    {{$diff := now.Sub $start}}
+    {{$days := math.Floor (div $diff.Hours 24)}}
+    {{$hourspassed := math.Mul $days 24}}
+    {{$hour := math.Sub $diff.Hours $hourspassed}}
+    {{$hour1 := math.Floor $hour}}
+    {{$minpassed1 := math.Mul $hourspassed 60}}
+    {{$minpassed2 := math.Mul $hour1 60}}
+    {{$min := math.Sub $diff.Minutes $minpassed1 $minpassed2}}
+    {{$min1 := math.Floor $min}}
     <pre><output style="color:#0CE5F8;">[ruilin@archlinux blog]$ neofetch 
                    -`                    ruilin@archlinux 
                   .o+`                   ---------------- 
                  `ooo/                   OS: Arch Linux x86_64 
                 `+oooo:                  Host: 20FMS0LG06 ThinkPad T460 
                `+oooooo:                 Kernel: 6.2.8-arch1-1 
-               -+oooooo+:                Uptime: 15 days, 17 hours, 4 mins 
+               -+oooooo+:                Uptime: {{$days}} days, {{$hour1}} hours, {{$min1}} mins 
              `/:-:++oooo+:               Packages: 1083 (pacman) 
             `/++++/+++++++:              Shell: bash 5.1.16 
            `/++++++++++++++:             Resolution: 1920x1080 
@@ -33,6 +42,8 @@
     
  [ruilin@archlinux blog]$ ls -G posts
 </output></pre>
+
+
                              
     
 
