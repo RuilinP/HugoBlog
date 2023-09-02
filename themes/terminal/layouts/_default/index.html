@@ -19,13 +19,23 @@
     {{$minpassed2 := math.Mul $hour1 60}}
     {{$min := math.Sub $diff.Minutes $minpassed1 $minpassed2}}
     {{$min1 := math.Floor $min}}
-    <pre><output style="color:#0CE5F8;">[ruilin@archlinux blog]$ neofetch 
+
+    
+
+
+    
+
+    
+   
+
+    
+    <pre><output style="color:#0CE5F8;" id="elapsed-time">[ruilin@archlinux blog]$ neofetch 
                    -`                    ruilin@archlinux 
                   .o+`                   ---------------- 
                  `ooo/                   OS: Arch Linux x86_64 
                 `+oooo:                  Host: 20FMS0LG06 ThinkPad T460 
                `+oooooo:                 Kernel: 6.2.8-arch1-1 
-               -+oooooo+:                Uptime: {{$days}} days, {{$hour1}} hours, {{$min1}} mins 
+               -+oooooo+:                <span id="uptime-line">Uptime: {{$days}} days, {{$hour1}} hours, {{$min1}} mins</span>
              `/:-:++oooo+:               Packages: 1083 (pacman) 
             `/++++/+++++++:              Shell: bash 5.1.16 
            `/++++++++++++++:             Resolution: 1920x1080 
@@ -103,4 +113,36 @@
 
     {{ partial "pagination.html" . }}
   </div>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+  const targetDate = new Date('2022-06-23T18:07:00Z');
+  const elapsedTimeElement = document.getElementById('elapsed-time');
+  const uptimeLine = document.getElementById('uptime-line');
+
+  function updateElapsedTime() {
+    const currentDate = new Date();
+    const timeDifference = currentDate - targetDate;
+    const seconds = Math.floor(timeDifference / 1000) % 60;
+    const minutes = Math.floor(timeDifference / (1000 * 60)) % 60;
+    const hours = Math.floor(timeDifference / (1000 * 60 * 60)) % 24;
+    const days = Math.floor(timeDifference / (1000 * 60 * 60 * 24));
+
+    // Create a string with the elapsed time
+    const elapsedTimeString = `${days} days, ${hours} hours, ${minutes} minutes, ${seconds} seconds`;
+
+    // Update the content of the uptime line
+    uptimeLine.textContent = `Uptime: ${elapsedTimeString}`;
+  }
+
+  // Update the elapsed time initially
+  updateElapsedTime();
+
+  // Update the elapsed time every second (1000 milliseconds)
+  setInterval(updateElapsedTime, 1000);
+});
+
+  </script>
+  
+  
 {{ end }}
