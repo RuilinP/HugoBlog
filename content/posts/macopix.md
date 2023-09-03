@@ -65,5 +65,11 @@ In "Mascot" -> "Animation" (Base by default), append the frames and edit the "Im
 Right click the mascot, "Save" -> "Save All", don't forget this one or you might LOSE ALL THE PROGRESS.  
 
 Now we have a basic desktop with animation we can drag around in our desktop environment. Next I'll try to explain how to create click event(other animation/sound effect)  
+{{< image src="/img/image9.png" alt="macopix" position="left" style="border-radius: 8px;" >}}
+{{< image src="/img/image10.png" alt="macopix" position="left" style="border-radius: 8px;" >}}
+Go back to "Config", click "Append Pattern" and add frames(for new animation or copy the base one) to create the animation when clicked. The "Message" is where the text box pops up when the mascot is clicked and the "Sound File" is for the audio of the mascot "speaks". For Linux, make sure we have some command line application to play the audio files and put the command in "Resources" -> "Misc." -> "Sound Command". 
+{{< image src="/img/image11.png" alt="macopix" position="left" style="border-radius: 8px;" >}}
+{{< image src="/img/setuparm2.png" alt="macopix" position="left" style="border-radius: 8px;" >}}
+Here is another example where I had Amiya as a siiting mascot(always somewhere above a window). To make a window sitter, in "mascot" -> "Move",adjust the coordinates and choose "Focus Follow". And by the way, in order for other languages to work in "Message", I believe we need to change system locale to the corresponding language.  
+{{< youtube uafp7kDSUos>}}
 
-To be continued...
