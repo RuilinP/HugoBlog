@@ -16,8 +16,8 @@ centerTheme = true
 [languages]
   [languages.en]
     languageName = "English"
-    title = "Terminal"
-    subtitle = "A simple, retro theme for Hugo"
+    title = "Ruilin's Blog"
+    subtitle = "Ruilin Peng's personal blog powered by Hugo"
     owner = ""
     keywords = ""
     copyright = ""
