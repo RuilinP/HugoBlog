@@ -59,3 +59,12 @@ FGO,龜速打主線ing。
 
 {{< image src="/img/md.jpeg" alt="apk" position="center" style="border-radius: 8px;" >}}
 其實我玩的不是手機端。。。
+
+# Lone Wolf/獨狼
+{{< image src="/img/lone.png" alt="apk" position="center" style="border-radius: 8px;" >}}
+Long story you know. Back in middle school, my nickname was already "lone ranger". Not just my introvert and speechless nature, 
+but also I guess sometimes Im just different(And as matter of fact, I wanna be different). Let me be honest, I feel like in most places 
+Ive lived(or people I ran into), people rather not to make friends who are different from them. It's not like I don't change myself, actually the opposite, 
+I am kind of the person who would always feel happy to try something new given that it's beneficial and meaningful to me. Yet the opposite, most people think
+I am a werido because I use Linux than Windows/MacOS, because I am heavily weebified, because I am different. From the past experience, I simply cannot fit into any 
+group, not Chinese cause I am a "banana man", not normal western group, cause I am weebified and don't like partying, not Japanese group cause I am only into ACG stuffs(girls: "Ew, gross Otaku"). So at the end of the day, I'd rather not even bother blending in any group and spend the time alone(with my waifus) or just with the friends who really respect my thoughts. After all, I believe in individualism.
