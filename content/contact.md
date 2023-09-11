@@ -21,3 +21,7 @@ ruilin.peng@mail.utoronto.ca
 
 [Github](https://github.com/RuilinP "Github")  
 
+[Discord](https://discordapp.com/users/752354251837276321 "Discord")
+
+
+
