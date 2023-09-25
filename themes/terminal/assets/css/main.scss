@@ -344,3 +344,15 @@ hr {
 sup {
  line-height: 0;
 }
+
+#arch{
+  color:#0CE5F8;
+}
+
+@media screen and (max-width: 810px){
+  #arch{
+    color:#0CE5F8;
+    font-size: 6px;
+    line-height: 1px;
+  }
+}
