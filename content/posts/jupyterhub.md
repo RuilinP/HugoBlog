@@ -34,7 +34,7 @@ File > New Project > Version Control > Git
 # 3
 在commit/push之前需要先pull（簡單來說就是別人之前做的改動） 
 兩種方法：
-一：Git > commit > 然後點擊左上角的pull
+一：Git > commit > 然後點擊右上角的pull
 {{< image src="/img/j4.png" alt="macopix" position="left" style="border-radius: 8px;" >}} 
 {{< image src="/img/j5.png" alt="macopix" position="left" style="border-radius: 8px;" >}}
 
@@ -47,7 +47,7 @@ git pull
 # 4
 在完成了一些工作後要上傳需要git commit + push
 兩種方法：
-一：Git > 選中所有要上傳的文件 > commit > 加入批註 > push
+一：Git > 選中所有要上傳的文件 > commit > 加入批註 > 右上角push
 {{< image src="/img/j6.png" alt="macopix" position="left" style="border-radius: 8px;" >}} 
 {{< image src="/img/j7.png" alt="macopix" position="left" style="border-radius: 8px;" >}} 
 
