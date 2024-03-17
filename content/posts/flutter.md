@@ -1,6 +1,6 @@
 +++
 title = "CSC301 flutter setup"
-date = "2023-11-07T21:24:09-04:00"
+date = "2024-01-26T21:24:09-04:00"
 author = "Ruilin"
 authorTwitter = "ruilin_peng" #do not include @
 cover = "/img/flutter1.png"
